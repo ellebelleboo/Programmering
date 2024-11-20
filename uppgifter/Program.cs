@@ -4,26 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace C__Uppgifter
+namespace C__Uppgift2
 {
     internal class Program
     {
         static void Main(string[] args)
         {
 
-            Console.Write("Your name: ");
-            string name = Console.ReadLine();
-            
-
-            int num1 = 1;
-            int num2 = 2;
-
-
-            Console.WriteLine("Name: " + name);
-            Console.WriteLine(num1);
-            Console.WriteLine(num2);
-
-
+            string numberAsString = "23";
+            int number = int.Parse(numberAsString);
+            Console.WriteLine(numberAsString);
         }
     }
 }
